@@ -1,6 +1,109 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.h,
+.f {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 7%;
+    background-color: #1f2937;
+}
+
+.s1,
+.s2,
+.s3,
+.s4 {
+    width: 100%;
+    min-height: 22.5%;
+}
 
 
+.h {
+    justify-content: space-between;
+}
 
+.h1 {
+    margin-left: 50px;
+}
+
+.h2 {
+    display: flex;
+    margin-right: 50px;
+    gap: 16px;
+}
+
+
+.f {
+    justify-content: center;
+}
+
+.s1 {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.s11 {
+    margin: 100px 0px 100px 50px;
+}
+
+.s12 {
+    margin: 100px 50px 100px 400px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.s2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.s21 {
+    margin: 30px;
+}
+
+.s22 {
+    display: flex;
+    margin: 30px 50px;
+}
+
+
+.s3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.s31,
+.s32 {
+    margin: 10px 50px;
+}
+
+.s4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s41 {
+    margin: 50px;
+    display: flex;
+}
+
+.s411 {
+    /* margin: 20px 50px; */
+}
 
 
 
