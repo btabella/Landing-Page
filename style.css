@@ -9,8 +9,8 @@ body {
 }
 
 img {
-    height: 200px;
-    width: 300px
+    height: 133px;
+    width: 200px
 }
 
 .h,
@@ -88,20 +88,19 @@ a {
     font-weight: 400;
 }
 
-.s113 {
-    padding: 10px 30px;
-}
 
 .s121 {
-    width: 800px
+    width: 800px;
+    height: 200px;
 }
 
-button {
+.s113 {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight:bold;
     border: 0;
     border-radius: 15px;
+    padding: 10px 30px;
 }
 
 .s2 {
@@ -113,11 +112,25 @@ button {
 
 .s21 {
     margin: 30px;
+    color: #1f2937;
 }
 
 .s22 {
     display: flex;
-    margin: 30px 100px;
+    margin: 30px 300px 100px;
+    gap: 30px;
+}
+
+.s222 {
+    color: #1f2937;
+    font-weight:200;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
 }
 
 
@@ -129,9 +142,19 @@ button {
     background-color: #E5E7EB;
 }
 
+.s31 {
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.s32 {
+    align-self: end;
+}
+
 .s31,
 .s32 {
-    margin: 10px 50px;
+    margin: 10px 400px;
 }
 
 .s4 {
@@ -141,24 +164,42 @@ button {
 }
 
 .s41 {
-    margin: 50px 100px;
+    margin: 100px 200px;
     display: flex;
     align-items: center;
     background-color: #3882f6;
 }
 
 .s411 {
-    margin: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 50px 150px;
+    color: #e5e7eb;
+}
+
+.s4111 {
+    font-size: x-large;
+}
+
+.s4112 {
+    font-weight: 200;
+    font-size: smaller;
 }
 
 .s412 {
-    margin: 30px 50px;
-    width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight:bold;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 15px;
+    padding: 10px 30px;
+    margin: 30px 100px 30px 150px;
+    width: 150px;
 }
 
 .f {
-    color: #e537eb;
+    color: #e5e7eb;
 }
-
-
 
